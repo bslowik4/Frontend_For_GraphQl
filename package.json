@@ -1,0 +1,17 @@
+{
+  "name": "frontend_for_graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.11.4",
+    "graphql": "^16.9.0",
+    "three": "^0.167.1"
+  }
+}
