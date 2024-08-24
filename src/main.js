@@ -23,7 +23,7 @@ const createBrick = (name, mass, position) => {
       size: 2,
       height: 0.5
     });
-    const textMaterial = new THREE.MeshBasicMaterial({ color: 0x000000 });
+    const textMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
     const mesh = new THREE.Mesh(textGeometry, textMaterial);
     mesh.position.set(position.x - 4, position.y + mass / 20, position.z);
     scene.add(mesh);
